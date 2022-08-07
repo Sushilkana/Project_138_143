@@ -1,0 +1,116 @@
+header{
+    background-color:rgb(177, 247, 223);
+    color:rgb(255, 116, 65);
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: x-large;
+    top:0;
+    width: 100%;
+    position: fixed;
+}
+
+#mymodal{
+    width:50%;
+}
+
+#Instr{
+    float: right;
+    font-size: medium;
+}
+
+#playgame{
+    font-size: medium;
+}
+
+#status{
+    font-size: large;
+}
+
+footer{
+    background-color: bisque;
+    color: rgb(252, 34, 34);
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    text-align:center;
+    font-size:30px;
+    font-family: 'Creepster', cursive;
+    text-shadow:3px 3px yellow;
+}
+
+canvas {
+    margin-left:5%;
+    margin-top:3%;
+    border:5px solid yellow;
+    border-radius:10px;
+    animation-name:Glow;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+}
+
+video{
+    /* margin-top:-60%; */
+    margin-left:10%;
+    border:5px solid yellow;
+    border-radius:10px;
+    animation-name:Glow;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+}
+
+body{
+    background-image: url(background1.jpg);
+    background-size: cover;
+}
+
+@keyframes Glow{
+    10%{
+        box-shadow:10px 10px 10px red;
+        text-shadow: 3px 3px 3px violet;
+    }
+
+    20%{
+        box-shadow:10px 10px 10px greenyellow;
+        text-shadow: 3px 3px 3px mediumvioletred;
+    }
+
+    30%{
+        box-shadow:10px 10px 10px rgb(70, 70, 239);
+        text-shadow: 3px 3px 3px lightcoral;
+    }
+
+    40%{
+        box-shadow:10px 10px 10px orange;
+        text-shadow: 3px 3px 3px coral;
+    }
+
+    50%{
+        box-shadow:10px 10px 10px pink;
+        text-shadow: 3px 3px 3px aquamarine;
+    }
+
+    60%{
+        box-shadow:10px 10px 10px aquamarine;
+        text-shadow: 3px 3px 3px pink;
+    }
+
+    70%{
+        box-shadow:10px 10px 10px coral;
+        text-shadow: 3px 3px 3px orange;
+    }
+
+    80%{
+        box-shadow:10px 10px 10px lightcoral;
+        text-shadow: 3px 3px 3px rgb(70, 70, 239);
+    }
+
+    90%{
+        box-shadow:10px 10px 10px mediumvioletred;
+        text-shadow: 3px 3px 3px greenyellow;
+    }
+
+    100%{
+        box-shadow:10px 10px 10px violet;
+        text-shadow: 3px 3px 3px red;
+    }
+}
